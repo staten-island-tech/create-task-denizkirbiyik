@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Chimp Test</title>
+  </head>
+  <body class="bg-white min-h-screen flex flex-col items-center">
+    <header class="w-full bg-black text-white py-4 shadow-md flex justify-between items-center px-4">
+      <div class="text-lg font-bold">
+        Length: <span id="length">2</span>
+      </div>
+      <h1 class="text-2xl font-bold text-center flex-grow">Chimp Test</h1>
+      <div class="text-lg font-bold">
+        Strikes: <span id="strikes">0</span>
+      </div>
+    </header>
+    <div class="flex-grow w-full max-w-4xl mt-6">
+      <div
+        id="grid"
+        class="grid grid-cols-8 grid-rows-6 gap-2 p-4 bg-custom-dark-blue shadow-md rounded-md relative"
+      >
+        <div
+          id="tile-1"
+          class="bg-custom-dark-blue rounded-md aspect-square flex items-center justify-center font-bold text-white"
+        ></div>
+        <div
+          id="tile-2"
+          class="bg-custom-dark-blue rounded-md aspect-square flex items-center justify-center font-bold text-white"
+        ></div>
+        <div
+          id="tile-3"
+          class="bg-custom-dark-blue rounded-md aspect-square flex items-center justify-center font-bold text-white"
+        ></div>
+        <div
+          id="tile-4"
+          class="bg-custom-dark-blue rounded-md aspect-square flex items-center justify-center font-bold text-white"
+        ></div>
+        <div
+          id="tile-5"
+          class="bg-custom-dark-blue rounded-md aspect-square flex items-center justify-center font-bold text-white"
+        ></div>
+        <div
+          id="tile-6"
+          class="bg-custom-dark-blue rounded-md aspect-square flex items-center justify-center font-bold text-white"
+        ></div>
+        <div
+          id="tile-7"
+          class="bg-custom-dark-blue rounded-md aspect-square flex items-center justify-center font-bold text-white"
+        ></div>
+        <div
+          id="tile-8"
+          class="bg-custom-dark-blue rounded-md aspect-square flex items-center justify-center font-bold text-white"
+        ></div>
+        <div
+          id="tile-9"
+          class="bg-custom-dark-blue rounded-md aspect-square flex items-center justify-center font-bold text-white"
+        ></div>
+        <div
+          id="tile-10"
+          class="bg-custom-dark-blue rounded-md aspect-square flex items-center justify-center font-bold text-white"
+        ></div>
+        <div
+          id="tile-11"
+          class="bg-custom-dark-blue rounded-md aspect-square flex items-center justify-center font-bold text-white"
+        ></div>
+        <div
+          id="tile-12"
+          class="bg-custom-dark-blue rounded-md aspect-square flex items-center justify-center font-bold text-white"
+        ></div>
+        <div
+          id="tile-13"
+          class="bg-custom-dark-blue rounded-md aspect-square flex items-center justify-center font-bold text-white"
+        ></div>
+        <div
+          id="tile-14"
+          class="bg-custom-dark-blue rounded-md aspect-square flex items-center justify-center font-bold text-white"
+        ></div>
+        <div
+          id="tile-15"
+          class="bg-custom-dark-blue rounded-md aspect-square flex items-center justify-center font-bold text-white"
+        ></div>
+        <div
+          id="tile-16"
+          class="bg-custom-dark-blue rounded-md aspect-square flex items-center justify-center font-bold text-white"
+        ></div>
+        <div
+          id="tile-17"
+          class="bg-custom-dark-blue rounded-md aspect-square flex items-center justify-center font-bold text-white"
+        ></div>
+        <div
+          id="tile-18"
+          class="bg-custom-dark-blue rounded-md aspect-square flex items-center justify-center font-bold text-white"
+        ></div>
+        <div
+          id="tile-19"
+          class="bg-custom-dark-blue rounded-md aspect-square flex items-center justify-center font-bold text-white"
+        ></div>
+        <div
+          id="tile-20"
+          class="bg-custom-dark-blue rounded-md aspect-square flex items-center justify-center font-bold text-white"
+        ></div>
+        <div
+          id="tile-21"
+          class="bg-custom-dark-blue rounded-md aspect-square flex items-center justify-center font-bold text-white"
+        ></div>
+        <div
+          id="tile-22"
+          class="bg-custom-dark-blue rounded-md aspect-square flex items-center justify-center font-bold text-white"
+        ></div>
+        <div
+          id="tile-23"
+          class="bg-custom-dark-blue rounded-md aspect-square flex items-center justify-center font-bold text-white"
+        ></div>
+        <div
+          id="tile-24"
+          class="bg-custom-dark-blue rounded-md aspect-square flex items-center justify-center font-bold text-white"
+        ></div>
+        <div
+          id="tile-25"
+          class="bg-custom-dark-blue rounded-md aspect-square flex items-center justify-center font-bold text-white"
+        ></div>
+        <div
+          id="tile-26"
+          class="bg-custom-dark-blue rounded-md aspect-square flex items-center justify-center font-bold text-white"
+        ></div>
+        <div
+          id="tile-27"
+          class="bg-custom-dark-blue rounded-md aspect-square flex items-center justify-center font-bold text-white"
+        ></div>
+        <div
+          id="tile-28"
+          class="bg-custom-dark-blue rounded-md aspect-square flex items-center justify-center font-bold text-white"
+        ></div>
+        <div
+          id="tile-29"
+          class="bg-custom-dark-blue rounded-md aspect-square flex items-center justify-center font-bold text-white"
+        ></div>
+        <div
+          id="tile-30"
+          class="bg-custom-dark-blue rounded-md aspect-square flex items-center justify-center font-bold text-white"
+        ></div>
+        <div
+          id="tile-31"
+          class="bg-custom-dark-blue rounded-md aspect-square flex items-center justify-center font-bold text-white"
+        ></div>
+        <div
+          id="tile-32"
+          class="bg-custom-dark-blue rounded-md aspect-square flex items-center justify-center font-bold text-white"
+        ></div>
+        <div
+          id="tile-33"
+          class="bg-custom-dark-blue rounded-md aspect-square flex items-center justify-center font-bold text-white"
+        ></div>
+        <div
+          id="tile-34"
+          class="bg-custom-dark-blue rounded-md aspect-square flex items-center justify-center font-bold text-white"
+        ></div>
+        <div
+          id="tile-35"
+          class="bg-custom-dark-blue rounded-md aspect-square flex items-center justify-center font-bold text-white"
+        ></div>
+        <div
+          id="tile-36"
+          class="bg-custom-dark-blue rounded-md aspect-square flex items-center justify-center font-bold text-white"
+        ></div>
+        <div
+          id="tile-37"
+          class="bg-custom-dark-blue rounded-md aspect-square flex items-center justify-center font-bold text-white"
+        ></div>
+        <div
+          id="tile-38"
+          class="bg-custom-dark-blue rounded-md aspect-square flex items-center justify-center font-bold text-white"
+        ></div>
+        <div
+          id="tile-39"
+          class="bg-custom-dark-blue rounded-md aspect-square flex items-center justify-center font-bold text-white"
+        ></div>
+        <div
+          id="tile-40"
+          class="bg-custom-dark-blue rounded-md aspect-square flex items-center justify-center font-bold text-white"
+        ></div>
+        <div
+          id="tile-41"
+          class="bg-custom-dark-blue rounded-md aspect-square flex items-center justify-center font-bold text-white"
+        ></div>
+        <div
+          id="tile-42"
+          class="bg-custom-dark-blue rounded-md aspect-square flex items-center justify-center font-bold text-white"
+        ></div>
+        <div
+          id="tile-43"
+          class="bg-custom-dark-blue rounded-md aspect-square flex items-center justify-center font-bold text-white"
+        ></div>
+        <div
+          id="tile-44"
+          class="bg-custom-dark-blue rounded-md aspect-square flex items-center justify-center font-bold text-white"
+        ></div>
+        <div
+          id="tile-45"
+          class="bg-custom-dark-blue rounded-md aspect-square flex items-center justify-center font-bold text-white"
+        ></div>
+        <div
+          id="tile-46"
+          class="bg-custom-dark-blue rounded-md aspect-square flex items-center justify-center font-bold text-white"
+        ></div>
+        <div
+          id="tile-47"
+          class="bg-custom-dark-blue rounded-md aspect-square flex items-center justify-center font-bold text-white"
+        ></div>
+        <div
+          id="tile-48"
+          class="bg-custom-dark-blue rounded-md aspect-square flex items-center justify-center font-bold text-white"
+        ></div>
+      </div>
+    </div>
+    <script type="module" src="/js/main.js"></script>
+  </body>
+</html>
