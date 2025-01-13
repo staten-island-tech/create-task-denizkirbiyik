@@ -32,6 +32,7 @@ function generateSquares(amt) {
               const sq_doc = document.querySelector(`#tile-${sq}`);
               sq_doc.classList.remove("bg-custom-light-blue");
               sq_doc.classList.add("bg-white");
+              sq_doc.innerHTML = "";
             }
           });
         }
